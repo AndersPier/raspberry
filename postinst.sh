@@ -1,6 +1,7 @@
 sudo apt -y update
 sudo apt -y upgrade
 sudo apt install -y docker.io
+sudo apt install -y docker-compose
 sudo apt install -y screenfetch
 echo /usr/bin/screenfetch >> ~/.bashrc
 sudo apt install -y cockpit
