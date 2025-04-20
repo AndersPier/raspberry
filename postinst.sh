@@ -6,6 +6,7 @@ echo /usr/bin/screenfetch >> ~/.bashrc
 sudo apt install -y cockpit
 sudo cp 01.netcfg.yaml /etc/netplan/01.netcfg.yaml
 sudo chmod ug+rw /etc/netplan/01.netcfg.yaml
+sudo netplan apply
 sudo apt install -y btop
 sudo curl -sSL https://install.pi-hole.net | bash
 sudo pihole setpassword
